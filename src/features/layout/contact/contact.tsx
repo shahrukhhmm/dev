@@ -49,10 +49,10 @@ export function Contact({ text }: ContactProps) {
           <br className={styles.break} /> Contact us today to start the journey.
         </p>
         <div className={styles.policyLinks}>
-          <a href="mailto:shahrukh862001@gmail.com"
+          <a href="mailto:contact@devthrone.com"
 
           >
-            shahrukh862001@gmail.com
+            contact@devthrone.com
           </a>
           |
           <a href="mailto:hasnadsatti740@gmail.com"
@@ -80,28 +80,15 @@ export function Contact({ text }: ContactProps) {
             +923035851328
           </a>
         </div>
-        <div className={styles.policyLinks}>
-          OFFICE ONE:
-          <a href="#"
+        <ol style={{ display: "flex", flexDirection: "column", alignItems: "center", fontSize: "12px" }}>
+          <li>
+           <strong>1.</strong> D172 D-Block Sattelite Town, 6th Road, Near Total Petrol Pump, Rawalpindi
+          </li>
+          <li>
+          <strong>2.</strong>  US-173 3rd Floor, Malkabad Plaza 6th Road, Rawalpindi.
+          </li>
+        </ol>
 
-          >
-            D172 D-Block Sattelite Town, 6th Road, Near Total Petrol Pump, Rawalpindi
-          </a>
-
-
-
-        </div>
-        <div className={styles.policyLinks}>
-          OFFICE TWO:
-          <a href="#"
-
-          >
-            US-173 3rd Floor, Malkabad Plaza 6th Road, Rawalpindi.
-          </a>
-
-
-
-        </div>
 
       </div>
 

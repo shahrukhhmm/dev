@@ -836,99 +836,80 @@ export const teamData = {
   design: [
     {
       id: "1",
-      name: "M. HARIS ABBASI",
-      src: "./assets/Haris.png",
+      name: "HASNAD SATTI",
+      src: "/assets/Haris.png",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715647107/EZ%20Website%20-%20Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
       position: "Co Founder",
       email: "teneza@eltezza.com",
     },
     {
-      id: "2",
-      name: "Mo Eltayeb",
-      src:
-        distributionName +
-        "/Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709569/EZ%20Website%20-%20Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
-      position: "Managing Director",
-      email: "eltayeb@eltezza.com",
-    },
-    {
       id: "3",
-      name: "Pradeep Chhetri",
+      name: "SHAHRUKH MEHMOOD",
       src:
         distributionName +
         "/Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709592/EZ%20Website%20-%20Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
-      position: "Account Manager",
+      position: "PROJECT MANAGER",
       email: "chhetri@eltezza.com",
     },
     {
+      id: "2",
+      name: "M. HARIS ABBASI",
+      src:
+        distributionName +
+        "/Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
+      placeholder:
+        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709569/EZ%20Website%20-%20Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
+      position: "LAMP Stack Lead",
+      email: "eltayeb@eltezza.com",
+    },
+    {
       id: "4",
-      name: "Danilo Herrera",
+      name: "SAQIB AZIZ",
       src:
         distributionName +
         "/Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709515/EZ%20Website%20-%20Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
-      position: "Business Strategist",
+      position: "App Development Lead",
       email: "herrera@eltezza.com",
     },
     {
       id: "5",
-      name: "Elisa Hickton",
+      name: "ZAID SATTI",
       src:
         distributionName +
         "/Design/Team/Elisa_Hickton_-_Content_Producer_mjkeyq.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715732923/EZ%20Website%20-%20Design/Team/Elisa_Hickton_-_Content_Producer_mjkeyq.jpg",
-      position: "Content Producer",
+      position: "SEO Lead",
       email: "hickton@eltezza.com",
     },
     {
       id: "6",
-      name: "Todd Carlsson",
+      name: "MUBASHER SATTI",
       src:
         distributionName +
         "/Design/Team/Todd_Carlsson_-_Web_Developer_wnk07m.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715919824/EZ%20Website%20-%20Design/Team/Todd_Carlsson_-_Web_Developer_wnk07m.jpg",
-      position: "Web Developer",
+      position: "Graphics and Digital Marketing Lead",
       email: "carlsson@eltezza.com",
     },
     {
       id: "7",
-      name: "Shay Gillanders",
+      name: "USAMA AHMED",
       src:
         distributionName +
         "/Design/Team/Shay_Gillanders_-_Visual_Designer_ap1gci.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709619/EZ%20Website%20-%20Design/Team/Shay_Gillanders_-_Visual_Designer_ap1gci.jpg",
-      position: "Visual Designer",
+      position: "MERN Stack Lead",
       email: "gillanders@eltezza.com",
     },
-    {
-      id: "8",
-      name: "Aileen Banzagales",
-      src:
-        distributionName +
-        "/Design/Team/Aileen+Banzagales+-+Graphic+Designer.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1713243560/EZ%20Website%20-%20Design/Team/Aileen_Banzagles_-_Graphic_Designer_oompl5.jpg",
-      position: "Graphic Designer",
-    },
-    {
-      id: "9",
-      name: "Jimwell Manlusoc",
-      src:
-        distributionName +
-        "/Design/Team/Jimwell_Manlusoc_-_UI_UX_Designer_adui9h.jpg",
-      placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1713331347/EZ%20Website%20-%20Design/Team/Jimwell_Manlusoc_-_UI_UX_Designer_adui9h.jpg",
-      position: "UI/UX Designer",
-    },
+    
   ] satisfies Array<TeamData>,
   creative: [
     {

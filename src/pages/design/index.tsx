@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import {
   brandsData,
   btsData,
@@ -7,7 +8,10 @@ import {
   metaData,
   ourProcess,
   pageTags,
-  services
+  services,
+  teamData,
+  teamDescription,
+
 } from "@/constants";
 import {
   BTS,
@@ -20,7 +24,9 @@ import {
   Navbar,
   Portal,
   Process,
-  Services
+  
+  Services,
+  Team
 } from "@/features/layout";
 import MetaData from "@/metadata";
 import styles from "@/styles/Home.module.css";
@@ -58,6 +64,7 @@ export default function DesignPage() {
           description={headerDescription.design}
           tags={pageTags.design}
         />
+        <img src="/assets/logo.jpeg" alt="logo" style={{width:"300px",height:"300px",borderRadius:"200px"}} />
         {/* <DesignHero
           leftData={designMarqueeLeftData}
           rightData={designMarqueeRightData}
@@ -68,7 +75,12 @@ export default function DesignPage() {
       <BTS content={btsData.design} page={page} />
       <Brands content={brandsData.design} columns={4} />
       <Process content={ourProcess.design} color={color} />
-     
+    
+      <Team
+        description={teamDescription.design}
+        content={teamData.design}
+        color={color}
+      />
       <Faq content={faqs.design} color={color} />
       <Contact onOpen={onOpen} text={page} isOpen={showModal} />
       <Portal root="contact-root">

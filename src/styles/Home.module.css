@@ -41,6 +41,7 @@
 .heroContainer {
   display: flex;
   justify-content: space-between;
+ 
   width: 100%;
   max-width: var(--max-width);
   padding: 0 var(--content-padding);
@@ -50,6 +51,15 @@
 
 @media screen and (width <= 800px) {
   .heroContainer {
+    flex-direction: column;
+    align-items: center;
     padding: 0 var(--content-padding-sm);
   }
+}
+
+
+.logoImage {
+  width: 200px;
+  height: 200px;
+  filter: invert(1);
 }
