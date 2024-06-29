@@ -82,14 +82,32 @@ export function Contact({ text }: ContactProps) {
         </div>
         <ol style={{ display: "flex", flexDirection: "column", alignItems: "center", fontSize: "12px" }}>
           <li>
-           <strong>1.</strong> D172 D-Block Sattelite Town, 6th Road, Near Total Petrol Pump, Rawalpindi
+            <strong>1.</strong> D172 D-Block Sattelite Town, 6th Road, Near Total Petrol Pump, Rawalpindi
           </li>
           <li>
-          <strong>2.</strong>  US-173 3rd Floor, Malkabad Plaza 6th Road, Rawalpindi.
+            <strong>2.</strong>  US-173 3rd Floor, Malkabad Plaza 6th Road, Rawalpindi.
           </li>
         </ol>
 
+        <div className={styles.policyLinks} style={{ color: "blue" }}>
+          <a href="https://www.linkedin.com/in/dev-throne-b480902a5" target="_blank"
 
+          >
+            LINKEDIN
+          </a>
+
+          <a href="https://www.instagram.com/devthrone/" target="_blank" style={{ color: "pink" }}
+
+          >
+            INSTAGRAM
+          </a>
+
+          <a href="https://www.facebook.com/devthrone" target="_blank" style={{ color: "skyblue" }}
+
+          >
+            FACEBOOK
+          </a>
+        </div>
       </div>
 
 

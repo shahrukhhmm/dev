@@ -836,8 +836,7 @@ export const teamData = {
       id: "1",
       name: "HASNAD SATTI",
       src:
-        distributionName +
-        "/Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
+       "https://source.boringavatars.com/beam/100/HASNADSATTI?colors=00000,fccc34,fccc34,fccc34,fccc34",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715647107/EZ%20Website%20-%20Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
       position: "Co Founder",
@@ -848,8 +847,7 @@ export const teamData = {
       id: "3",
       name: "SHAHRUKH MEHMOOD",
       src:
-        distributionName +
-        "/Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
+      "https://source.boringavatars.com/beam/100/SHAHRUKHMEHMOOD?colors=00000,fccc34,fccc34,fccc34,fccc34",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709592/EZ%20Website%20-%20Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
       position: "PROJECT MANAGER",
@@ -859,9 +857,7 @@ export const teamData = {
       id: "2",
       name: "M. HARIS ABBASI",
       src:
-        distributionName +
-        "/Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
-      placeholder:
+       "https://source.boringavatars.com/beam/100/MHARISABBASI?colors=00000,fccc34,fccc34,fccc34,fccc34",   placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709569/EZ%20Website%20-%20Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
       position: "LAMP Stack Lead",
       email: "eltayeb@eltezza.com",
@@ -870,8 +866,7 @@ export const teamData = {
       id: "4",
       name: "SAQIB AZIZ",
       src:
-        distributionName +
-        "/Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
+      "https://source.boringavatars.com/beam/100/SAQIBAZIZ?colors=00000,fccc34,fccc34,fccc34,fccc34",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709515/EZ%20Website%20-%20Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
       position: "App Development Lead",
@@ -881,8 +876,7 @@ export const teamData = {
       id: "5",
       name: "ZAID SATTI",
       src:
-      distributionName +
-        "/Creative/Team/King_Raffy_-_Visual_Designer_bxau6w.jpg",
+     "https://source.boringavatars.com/beam/100/ZAIDSATTI?colors=00000,fccc34,fccc34,fccc34,fccc34",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715732923/EZ%20Website%20-%20Design/Team/Elisa_Hickton_-_Content_Producer_mjkeyq.jpg",
       position: "SEO Lead",
@@ -892,9 +886,7 @@ export const teamData = {
       id: "6",
       name: "MUBASHER SATTI",
       src:
-        distributionName +
-        "/Design/Team/Todd_Carlsson_-_Web_Developer_wnk07m.jpg",
-      placeholder:
+       "https://source.boringavatars.com/beam/100/MUBASHERSATTI?colors=00000,fccc34,fccc34,fccc34,fccc34" ,   placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715919824/EZ%20Website%20-%20Design/Team/Todd_Carlsson_-_Web_Developer_wnk07m.jpg",
       position: "Graphics and Digital Marketing Lead",
       email: "carlsson@eltezza.com",
@@ -903,8 +895,7 @@ export const teamData = {
       id: "7",
       name: "USAMA AHMED",
       src:
-        distributionName +
-        "/Design/Team/Shay_Gillanders_-_Visual_Designer_ap1gci.jpg",
+       "https://source.boringavatars.com/beam/100/USAMA%20AHMED?colors=00000,fccc34,fccc34,fccc34,fccc34",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709619/EZ%20Website%20-%20Design/Team/Shay_Gillanders_-_Visual_Designer_ap1gci.jpg",
       position: "MERN Stack Lead",

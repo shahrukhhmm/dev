@@ -9,10 +9,15 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
+    dangerouslyAllowSVG:true,
     remotePatterns: [
       {
         protocol: "https",
         hostname: "source.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "source.boringavatars.com",
       },
       {
         protocol: "https",
