@@ -1,13 +1,11 @@
+
+
 import { landingPageData, metaData } from "@/constants";
 import MetaData from "@/metadata";
-import styles from "@/styles/Home.module.css";
-import { motion, useIsPresent } from "framer-motion";
-import { useRouter } from "next/router";
 import DesignPage from "./design";
 
 export default function Home() {
-  const isPresent = useIsPresent();
-  const router = useRouter();
+
   return (
     <>
       <MetaData
