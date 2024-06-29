@@ -42,18 +42,59 @@ export const TeamMember = memo(function TeamMember({
   }
   return (
     <div className={styles.memberContainer}>
+      <motion.div
+        variants={variant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className={styles.imageContainer}
+        onMouseOver={hoverHandler}
+        onMouseLeave={onMouseLeave}
+      >
+        <AnimatePresence>
+          {isHovered && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className={styles.memberEmailContainer}
+            >
+              <p
+                className={styles.memberEmail}
 
+              >
+
+                {member.name}
+              </p>
+            </motion.div>
+          )}
+        </AnimatePresence>
+        <motion.div
+          variants={variant}
+          whileHover="hover"
+          animate={isHovered ? "hover" : ""}
+          className={styles.imageWrapper}
+        >
+          <Image
+            key={member.id}
+            className={styles.teamImg}
+            src={member.src}
+            alt={member.name}
+            width={1300}
+            height={1800}
+          />
+        </motion.div>
+      </motion.div>
       <p className={styles.memberName}>{member.name}</p>
       <div className={styles.lineThrough} />
       <div
         className={styles.positionContainer}
         style={{
-          color: color.slice(0, 2) === "--" ? `var(${color})` : color,display:"flex",flexDirection:"column"
+          color: color.slice(0, 2) === "--" ? `var(${color})` : color,
         }}
       >
         <p>{member.position}</p>
-        <p>{member.name}</p>
-       
+        <p>0{index + 1}</p>
       </div>
     </div>
   );

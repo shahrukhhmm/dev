@@ -244,7 +244,7 @@ export const designMarqueeLeftData = [
     alt: "Tonkotsu Ramen on Fire Reel",
     isVideo: false,
   },
- 
+
   {
     id: "1",
     src: "/assets/blockhangs.jpg",
@@ -297,7 +297,6 @@ export const designMarqueeRightData = [
     alt: "Tonkotsu Ramen on Fire Reel",
     isVideo: false,
   },
-  
 ] satisfies Array<CarouselData>;
 
 export const designCarouselData = [
@@ -337,7 +336,7 @@ export const designCarouselData = [
     alt: "Flanzy Branding",
     isVideo: false,
   },
-  
+
   {
     id: "7",
     src: "/assets/Best-ielts-institute-in-Islamabad-ZELA-IELTS.png",
@@ -345,7 +344,7 @@ export const designCarouselData = [
     alt: "Tonkotsu Ramen on Fire Reel",
     isVideo: false,
   },
- 
+
   {
     id: "10",
     src: "/assets/blockhangs.jpg",
@@ -370,7 +369,6 @@ export const designCarouselData = [
     alt: "Flanzy Branding",
     isVideo: false,
   },
- 
 ] satisfies Array<CarouselData>;
 
 // CREATIVE PAGE DATA
@@ -837,12 +835,15 @@ export const teamData = {
     {
       id: "1",
       name: "HASNAD SATTI",
-      src: "/assets/Haris.png",
+      src:
+        distributionName +
+        "/Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715647107/EZ%20Website%20-%20Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
       position: "Co Founder",
       email: "teneza@eltezza.com",
     },
+
     {
       id: "3",
       name: "SHAHRUKH MEHMOOD",
@@ -880,8 +881,8 @@ export const teamData = {
       id: "5",
       name: "ZAID SATTI",
       src:
-        distributionName +
-        "/Design/Team/Elisa_Hickton_-_Content_Producer_mjkeyq.jpg",
+      distributionName +
+        "/Creative/Team/King_Raffy_-_Visual_Designer_bxau6w.jpg",
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715732923/EZ%20Website%20-%20Design/Team/Elisa_Hickton_-_Content_Producer_mjkeyq.jpg",
       position: "SEO Lead",
@@ -909,7 +910,6 @@ export const teamData = {
       position: "MERN Stack Lead",
       email: "gillanders@eltezza.com",
     },
-    
   ] satisfies Array<TeamData>,
   creative: [
     {
