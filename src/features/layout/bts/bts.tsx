@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import ProgressiveImage from "react-progressive-graceful-image";
 import classNames from "classnames";
 import { motion } from "framer-motion";
-=
+
 interface BTSProps {
   content: Array<BtsData>;
   page: "design";
