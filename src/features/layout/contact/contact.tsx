@@ -1,7 +1,4 @@
-import Image from "next/image";
 import styles from "./contact.module.scss";
-import { Button, ButtonVariant } from "@/features/ui";
-import Link from "next/link";
 
 interface ContactProps {
   text: "design" | "create";
@@ -9,12 +6,12 @@ interface ContactProps {
   isOpen: boolean;
 }
 
-export function Contact({ text, onOpen, isOpen }: ContactProps) {
+export function Contact({ text }: ContactProps) {
   return (
     <section id="contact" className={styles.contactSection}>
       <div className={styles.purpleOrb} />
       <div className={styles.contactContainer}>
-        
+
         <div>
           <h1 className={styles.contactLargeText}>
             LET&apos;S

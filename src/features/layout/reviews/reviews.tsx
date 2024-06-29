@@ -57,7 +57,7 @@ export function Reviews({ content, page }: ReviewsProps) {
     return (
       <section id="reviews" className={styles.reviews}>
         <h1 className={classNames(styles.reviewsTitle, "largeText")}>
-          Hear it from our <span className="textGradient">Clients</span>
+          Hear it from our <span className="textGradient">partners</span>
         </h1>
         <Swiper
           slidesPerView={3}
@@ -105,14 +105,24 @@ export function Reviews({ content, page }: ReviewsProps) {
         <h1 className={classNames(styles.reviewsTitle, "largeText")}>
           Hear it from
           <br className={styles.titleBreak} />
-          our <span className="textGradient">Clients</span>
+          our <span className="textGradient">partners</span>
         </h1>
         <div className={styles.reviewsContainer}>
           {content.slice(0, paginationCount).map((item, i) => (
             <Review key={item.id} review={item} index={i} page={page} />
           ))}
         </div>
-        
+        <div className={styles.buttonContainer} ref={scrollDiv}>
+          <Button
+            onClick={paginateData}
+            className={styles.paginateButton}
+            variant={ButtonVariant.gradient}
+          >
+            {paginationCount < content.length
+              ? "View more testimonials"
+              : "Show less"}
+          </Button>
+        </div>
       </section>
     );
 }

@@ -1,8 +1,5 @@
-import { Button, ButtonVariant } from "@/features/ui";
-import styles from "./hero.module.scss";
-import { FeaturedReview } from "../reviews";
-import { featuredReviewData } from "@/constants";
 import classNames from "classnames";
+import styles from "./hero.module.scss";
 
 interface HeroProps {
   page: "design" | "creative";
@@ -10,12 +7,12 @@ interface HeroProps {
   tags: Array<string>;
 }
 
-export function Hero({ page, description, tags }: HeroProps) {
+export function Hero({ page, description }: HeroProps) {
   return (
     <div className={styles.heroContent}>
       {/* HEADING */}
       <div className={styles.heroHeadingContainer}>
-        
+
         <h1 className={styles.heroHeading}>
           DEV{" "}
           <span

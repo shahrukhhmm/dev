@@ -68,12 +68,7 @@ export default function DesignPage() {
       <BTS content={btsData.design} page={page} />
       <Brands content={brandsData.design} columns={4} />
       <Process content={ourProcess.design} color={color} />
-      {/* <Team
-        description={teamDescription.design}
-        content={teamData.design}
-        color={color}
-      /> */}
-      {/* <Reviews content={testimonialsData} page={page} /> */}
+     
       <Faq content={faqs.design} color={color} />
       <Contact onOpen={onOpen} text={page} isOpen={showModal} />
       <Portal root="contact-root">

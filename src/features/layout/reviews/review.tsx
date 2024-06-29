@@ -1,10 +1,9 @@
+import useWindowSize from "@/hooks/useWindowSize";
 import { TestimonialsData } from "@/types";
-import styles from "./reviews.module.scss";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useSwiper } from "swiper/react";
-import useWindowSize from "@/hooks/useWindowSize";
+import styles from "./reviews.module.scss";
 
 interface ReviewProps {
   review: TestimonialsData;
@@ -13,7 +12,7 @@ interface ReviewProps {
   length?: number;
 }
 
-export function Review({ review, index, page, length }: ReviewProps) {
+export function Review({ review, index,  length }: ReviewProps) {
   const swiper = useSwiper();
   const [swiperIndex, setSwiperIndex] = useState(1);
   const [windowSize] = useWindowSize();

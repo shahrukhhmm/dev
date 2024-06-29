@@ -1,24 +1,11 @@
+import { TextGenerateEffect } from "@/features/ui/text-generate-effect";
 import classNames from "classnames";
 import styles from "./brands.module.scss";
-import { BrandsData } from "@/types";
-import Image from "next/image";
-import useWindowSize from "@/hooks/useWindowSize";
-import { TextGenerateEffect } from "@/features/ui/text-generate-effect";
 
-interface BrandsProps {
-  content: Array<BrandsData>;
-  columns: 3 | 4;
-}
 
-export function Brands({ content, columns }: BrandsProps) {
-  const [windowWidth] = useWindowSize();
-  function getMaxWidth(maxWidth: number | undefined) {
-    if (windowWidth > 500) {
-      return maxWidth;
-    } else if (maxWidth) {
-      return maxWidth * 0.7;
-    } else return 150 * 0.7;
-  }
+
+export function Brands() {
+  
 
   const words = `We handle projects of any scale and complexity across various domains.
 Our solutions are tailored to meet the specific needs and goals of our clients.
